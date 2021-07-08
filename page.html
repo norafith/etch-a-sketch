@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <title>Etch-a-Sketch</title>
+</head>
+<body>
+    <section id="button-container">
+        <h1>Etch-a-Sketch</h1>
+        <div>
+            <label for="color-pick">Цвет кисти: </label>
+            <input id="color-pick" type="color" value="#000000">
+        </div>
+        <div>
+            <label for="color-rainbow">Радуга: </label>
+            <input id="color-rainbow" type="checkbox">
+        </div>
+        <div>
+            <label for="size-pick">Размер сетки: <span id="size-show"></span></label>
+        </div>
+        <div>
+            <input id="size-pick" type="range" min=5 max=80 value=30>
+        </div>
+        <div>
+            <button id="clear">Очистить</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+
+</body>
