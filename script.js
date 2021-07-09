@@ -17,7 +17,7 @@ function make_cells() {
 
 
 function clear_cells() {
-    const cells = document.querySelectorAll(".cell");
+    const cells = document.querySelectorAll(".active");
     cells.forEach(cell => {
         cell.setAttribute("style", "");
         cell.classList.remove("active")
